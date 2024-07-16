@@ -8,7 +8,7 @@
 require('dotenv').config();
 const { ethers } = require("hardhat");
 
-const nftAddress = "0x7e3f3a52AD6dAF2A30492cf93F7de53fb116a2d1";
+const nftAddress = "0xB290ddf343FD84982cBdCf858DDcB7911Ba4eC80";
 const networkAddress = 'https://rpc.ankr.com/polygon_mumbai';
 const privateKey = process.env.PRIVATE_KEY;
 const provider = new ethers.providers.JsonRpcProvider(networkAddress);
